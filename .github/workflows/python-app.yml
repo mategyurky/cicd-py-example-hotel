@@ -43,6 +43,8 @@ jobs:
     - name: Fun with Linux
       run: |
         ls -lah
+        cd test
+        cat test_hootel.py
 
     - name: Allure Report action from marketplace
       uses: simple-elf/allure-report-action@master

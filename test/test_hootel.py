@@ -26,10 +26,11 @@ class TestHootel(object):
     def teardown_method(self):
         self.browser.quit()
 
+    # allure riportok tesztreszabása, olvashatóvá tétele dekorátorral
     @allure.title("Hootel Login")
     @allure.description("A belépés tesztelése")
-    @allure.severity(allure.severity_level.TRIVIAL)
-    @allure.tag("login")
+    @allure.severity(allure.severity_level.CRITICAL)
+    @allure.tag("login" , "hootel" , "selenium" , "e2e")
     def test_login(self):
         login_btn = self.browser.find_element(By.XPATH, '//a[@class="nav-link"]')
         time.sleep(1)

@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"A szállásokat listázom ki","1098","Hootel List","test","2026-07-08","passed","2026-07-08","TestHootel","test_hootel","",""
+"email : hiwasi1765@wisnick.com password: tesztelek2021","3101","Hootel Login","test","2026-07-08","passed","2026-07-08","TestHootel","test_hootel","",""

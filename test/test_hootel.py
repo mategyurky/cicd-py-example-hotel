@@ -10,6 +10,8 @@ class TestHootel(object):
     def setup_method(self):
         URL = 'http://hotel-v3.progmasters.hu/'
         options = Options()
+        options.add_argument("start-maximized")
+        options.add_argument("--headless")
         options.add_experimental_option("detach", True)
         self.browser = webdriver.Chrome(options=options)
         self.browser.get(URL)

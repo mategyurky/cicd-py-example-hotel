@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"A belépés tesztelése","2652","Hootel Login","test","2026-07-08","passed","2026-07-08","TestHootel","test_hootel","",""
-"","1088","test_hotel_list","test","2026-07-08","passed","2026-07-08","TestHootel","test_hootel","",""

@@ -25,6 +25,7 @@ class TestHootel(object):
     @allure.tag("login")
     def test_login(self):
         login_btn = self.browser.find_element(By.XPATH, '//a[@class="nav-link"]')
+        time.sleep(1)
         login_btn.click()
 
         email_input = self.browser.find_element(By.ID, 'email')
